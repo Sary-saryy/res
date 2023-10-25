@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: rgb(225, 225, 225);
+}
+ 
+
+.form {
+    width: 28%;
+    height: 27rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 80px;
+    background-color: #14338aa8;
+    border-radius: 13px;
+    margin: 14rem 41rem;
+}
+
+.conjunto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+}
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.9rem 11rem;
+}
+
+
+.conjunto label {
+    text-align: left; 
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.botao input {
+    margin: 0.6rem;
+    background-color: rgba(166, 185, 255, 0.855);
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 13px;
+    box-shadow: 1px 1px 6px #99a7f9;
+}
+
+.botao input:hover {
+    background-color: rgb(193, 212, 246);
+    transition: background-color 0.5s ease, color 0.5s ease, transorm 0.5s ease;
+}
+
+.Login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Login h1 {
+    
+    padding: o.4rem;
+}
+
+.perfil {
+    margin-left: 0.4rem;
+}
+
+.botaovdd input{
+    width: 100%;
+    margin-right: 6.8rem;
+    border: none;
+    padding: 0.42rem 11px;
+    border-radius: 5px;
+    background-color: #8b9bf8;
+    display: flex;
+    justify-content: center;
+    transition: background-color 0.5s ease, color 0.5s ease, transorm 0.5s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.botaovdd :hover {
+    background-color: rgb(172, 198, 248);
+    transform: scale(1.1);
+}
+
+
+ 
